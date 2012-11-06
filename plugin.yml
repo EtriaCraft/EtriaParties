@@ -1,0 +1,43 @@
+name: EtriaParties
+main: com.etriacraft.etriaparties.EtriaParties
+version: 1.0
+author: MistPhizzle
+description: Party plugin for the EtriaCraft server.
+commands:
+  party:
+    description: View party information.
+    usage: /party (command)
+  p:
+    description: Shorthand for /party.
+    usage: /p (command)
+  pc:
+    description: Talk in party chat.
+    usage: /pc to toggle, or /pc (message) to send a quick message.
+permissions:
+  etriaparties.create:
+    description: Create a party.
+    default: op
+  etriaparties.join:
+    description: Join a party.
+    default: op
+  etriaparties.leave:
+    description: leave a party.
+    default: op
+  etriaparties.list:
+    description: leave a party.
+    default: op
+  etriaparties.kick:
+    description: leave a party.
+    default: op
+  etriaparties.invite:
+    description: leave a party.
+    default: op
+  etriaparties.chat:
+    description: leave a party.
+    default: op
+  etriaparties.help:
+    description: Check for help commands.
+    default: true
+  etriaparties.admin:
+    description: Teleport to a party member.
+    default: op
